@@ -15,8 +15,8 @@ class CreateReportsTable extends Migration
     {
         Schema::create('reports', function (Blueprint $table) {
             $table->increments('id');
-            $table->unsignInteger('user_id');
-            $table->unsignInteger('review_id');
+            $table->unsignedInteger('user_id');
+            $table->unsignedInteger('review_id');
             $table->string('content')->nullable();
             $table->timestamps();
         });
