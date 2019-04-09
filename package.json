@@ -17,5 +17,19 @@
         "laravel-mix": "^1.0",
         "lodash": "^4.17.4",
         "vue": "^2.5.7"
+    },
+    "name": "CheckInPlace",
+    "version": "1.0.0",
+    "main": "index.js",
+    "repository": "https://github.com/lovent/check-in-place.git",
+    "author": "lovent <vuong.minh.thai@framgia.com>",
+    "license": "MIT",
+    "dependencies": {
+        "bootstrap": "^3.3.7",
+        "font-awesome": "Font-Awesome#^4.7.0",
+        "foundation": "^5.5.3",
+        "flat-color-icons": "^1.0.2",
+        "foundation-icons": "*",
+        "foundation-icon-fonts": "*"
     }
 }
