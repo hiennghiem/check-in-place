@@ -16,7 +16,7 @@ class UsersTableSeeder extends Seeder
                 'name' => 'admin',
                 'email' => 'admin@gmail.com',
                 'password' => bcrypt('123456'),
-                'avatar' => 'admin.jpg',                
+                'avatar' => 'default.png',                
                 'add' => 'Hà Nội, Việt Nam',
                 'phone' => '0123456789',
                 'level' => 'admin',
