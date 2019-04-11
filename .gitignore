@@ -11,3 +11,6 @@ npm-debug.log
 yarn-error.log
 yarn.lock
 .env
+/public/assets
+readme.md 
+/public/images
