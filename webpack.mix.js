@@ -11,18 +11,7 @@ let mix = require('laravel-mix');
  |
  */
 
-mix.copyDirectory([
-    'resources/assets/css',
-], 'public/css');
-mix.copyDirectory([
-    'resources/assets/bower',
-], 'public/assets');
-mix.copyDirectory([
-    'resources/assets/images',
-], 'public/images');
-mix.copyDirectory([
-    'resources/assets/css',
-], 'public/css');
+
 mix.js(['resources/assets/js/app.js',
     'public/assets/modernizr/modernizr.js',
     'public/assets/jquery/dist/jquery.js',
